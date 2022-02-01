@@ -143,3 +143,48 @@ import 'package:explication_http/introduccion_paquetes_dart.dart' as paquetes;
 - Es una forma de agrupar variables de una clase.
 - Es una forma de importar archivos dentro de Flutter.
 - Es una forma de hacer referencia a un servicio REST.
+
+21. ¿Es necesario manejar los posibles errores en la respuesta de una API?
+
+- ## **Si.**
+- No es necesario, nunca nos darán errores.
+- Si, aunque es poco probable que haya errores.
+- Si, salvo excepciones.
+
+22. ¿Qué método utilizarías para manejar un posible error en la respuesta de una API?
+
+- if-else.
+- ## **try-catch**
+- for-in.
+- Ninuguno de los anteriores.
+
+23. ¿Qué pasaría si hay un error no controlado en la respuesta de la API?
+
+- Nada.
+- Algún fallo sin importancia en la app.
+- ## **Puede romper la app y generar mala experiencia de usuario.**
+- Es imposible que haya errores en la respuesta de una API.
+
+24. ¿Qué ventajas encontramos en null-safety en las respuestas desde una API?
+
+- ## **Nos permite manejar posibles datos nulos que se envíen desde la API.**
+- Marca como nulos datos que realmente no lo son.
+- Si un dato es nulo le pone un valor por defecto.
+- Todas las respuestas son correctas.
+
+25. ¿Qué indica el required en el siguiente ejemplo?
+
+ ReqResRespuesta({
+    required this.page,
+    required this.perPage,
+    required this.total,
+    required this.totalPages,
+    required this.data,
+    required this.support,
+  });
+
+- Es una marca decorativa de las variables.
+- ## **Que todos los parámetros son requeridos y serán necesario inicializarlos al generar una instancia de la clase.**
+- Los parametros, en ciertos casos, son requeridos y por tanto serán necesarios o no al generar una instancia de la clase.
+- Ninguna de las respuestas es correcta.
+
